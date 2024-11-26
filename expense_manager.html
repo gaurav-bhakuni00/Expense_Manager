@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Manager</title>
+    <style>
+        body {
+            background-image: url('budget.jpg'); /* Replace with your background image path */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Full height of the viewport */
+            display: flex; /* Use flexbox for centering */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+        }
+
+        .box {
+            background-color: white; /* White background for the box */
+            padding: 40px; /* Padding inside the box */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+            width: 400px;
+            max-width: 90%;
+        }
+
+        h1 {
+            color: #4caf50;
+            margin: 20px 0;
+            font-size: 48px;
+        }
+
+        .button {
+            background-color: #4caf50;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 10px 0;
+            cursor: pointer;
+            border: none; /* Remove border */
+            border-radius: 5px; /* Add rounded corners */
+            transition: background-color 0.3s; /* Smooth transition for hover effect */
+        }
+
+        .button:hover {
+            background-color: green; /* Darken the button on hover */
+        }
+
+        a {
+            color: white; /* Ensure link text is white */
+            text-decoration: none; /* Remove underline */
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Expense Manager</h1>
+        <button class="button"><a href="add_expenses.html">Add Expense</a></button>
+        <button class="button"><a href="show_expenses.html">Show Expenses</a></button>
+    </div>
+</body>
+</html>
